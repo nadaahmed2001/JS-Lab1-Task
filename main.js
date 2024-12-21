@@ -1,5 +1,4 @@
 // Question 1 : Write a JavaScript conditional statement to sort three numbers. Display an alert box to show
-
 function Question1(a, b, c) {
   let temp;
   if (a < b) {
@@ -47,13 +46,13 @@ function Question2() {
 function Question3() {
     let sum = 0;
     for( let i=1; i<1000 ; i++){
-        if(i%3==0 || i%5==0){
+        if(i%3==0 && i%5==0){
             sum += i;
         }
     }
     console.log("Sum of multiples of 3 and 5 under 1000 is : "+ sum);
 }
-// Question3();
+Question3();
 
 
 // Question 4: Write a JavaScript program where the program takes a random integer between 1 to 10, the
